@@ -8,7 +8,7 @@ section {
 }
 
 .hero {
-  background-color: #1c1d25;
+  background-color: #545983;
   height: 100vh;
   color: white;
   font-size: 40px;
@@ -98,6 +98,7 @@ p {
 .logo {
   height: 80px;
   margin: 30px;
+  border-radius: 50%;
 }
 .social {
   margin: 20px;
