@@ -30,7 +30,7 @@ const Contact = () => {
 
         <form
           ref={formRef}
-          onsubmit={handleSubmit}
+          onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
@@ -73,6 +73,13 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+      </motion.div>
+
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+      >
+        <EarthCanvas />
       </motion.div>
     </div>
   );
