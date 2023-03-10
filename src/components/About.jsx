@@ -49,11 +49,7 @@ const About = () => {
         TypeScript and expertise in frameworks like React, Node.js and Three.js.
         I'm a quick learner and collaborate closely with clients to create
         efficient, scalable, and user-friendly solutions that solve real-world
-        problems. Let's work together to bring new ideas to life! Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Perspiciatis delectus aut
-        earum architecto consectetur molestias vitae laudantium pariatur animi,
-        accusantium magnam voluptatibus qui esse quisquam sequi veritatis
-        voluptatem nesciunt vero?
+        problems. Let's work together to bring new ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
