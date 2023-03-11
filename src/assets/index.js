@@ -22,9 +22,10 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import adria from "./company/adria.png";
+import code from "./company/code.png";
+import btc from "./company/btc.png";
+import freelancer from "./company/freelancer.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -53,10 +54,11 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
+  adria,
+  code,
+  btc,
   carrent,
   jobit,
   tripguide,
+  freelancer,
 };

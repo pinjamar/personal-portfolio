@@ -14,11 +14,11 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
+  code,
+  btc,
+  adria,
+  freelancer,
   carrent,
   jobit,
   tripguide,
@@ -114,8 +114,8 @@ const experiences = [
   {
     title: "Junior Frontend Developer",
     company_name: "Code Base",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: code,
+    iconBg: "#E6DEDD",
     date: "Nov 2022 - Present",
     points: [
       "Developing web applications using React.js and other related technologies.",
@@ -126,7 +126,7 @@ const experiences = [
   {
     title: "Crypto researcher / analyst",
     company_name: "Shard Labs",
-    icon: starbucks,
+    icon: btc,
     iconBg: "#383E56",
     date: "May 2022 - Oct 2022",
     points: [
@@ -139,8 +139,8 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Freelancer",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: freelancer,
+    iconBg: "#E6DEDD",
     date: "May 2021 - May 2022",
     points: [
       "'beaconsmind AG' - Converted design templates of the complete dashboard to HTML/CSS for a business app in React",
@@ -153,8 +153,8 @@ const experiences = [
   {
     title: "Frontend Developer (internship)",
     company_name: "Code Base",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: meta,
+    iconBg: "#383E56",
     date: "May 2020 - May 2021",
     points: [
       "Worked frontend parts of several business apps and some web pages",
@@ -166,8 +166,8 @@ const experiences = [
   {
     title: "Business Analyst",
     company_name: "Adria Docks",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: adria,
+    iconBg: "#E6DEDD",
     date: "Apr 2015 - Apr 2020",
     points: [
       "Did procurement and warehouse operations, coordinated contractors",
