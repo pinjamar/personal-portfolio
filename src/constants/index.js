@@ -23,125 +23,125 @@ import {
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+} from '../assets';
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: 'about',
+    title: 'About',
   },
   {
-    id: "work",
-    title: "Work",
+    id: 'work',
+    title: 'Work',
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: 'contact',
+    title: 'Contact',
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: 'Web Developer',
     icon: web,
   },
   {
-    title: "React.js Developer",
+    title: 'React.js Developer',
     icon: mobile,
   },
   {
-    title: "Front-End Developer",
+    title: 'Front-End Developer',
     icon: backend,
   },
   {
-    title: "Crypto Researcher",
+    title: 'Crypto Researcher',
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: 'HTML 5',
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: 'CSS 3',
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: 'JavaScript',
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: 'TypeScript',
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: 'React JS',
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: 'Redux Toolkit',
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: 'MongoDB',
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: 'Three JS',
     icon: threejs,
   },
   {
-    name: "git",
+    name: 'git',
     icon: git,
   },
   {
-    name: "figma",
+    name: 'figma',
     icon: figma,
   },
 ];
 
 const experiences = [
   {
-    title: "Junior Frontend Developer",
-    company_name: "Code Base",
+    title: 'Junior Frontend Developer',
+    company_name: 'Code Base',
     icon: code,
-    iconBg: "#E6DEDD",
-    date: "Nov 2022 - Present",
+    iconBg: '#E6DEDD',
+    date: 'Nov 2022 - Present',
     points: [
-      "Developing web applications using React.js and other related technologies.",
-      "Learning and working with a lot of new frontend technologies (Typescript, Node.js, MongoDB, SQL, Tailwind, Three.js)",
-      "Implementing responsive design, styling components and ensuring cross-browser compatibility, working a lot with HTML/CSS/SCSS.",
+      'Developing web applications using React.js and other related technologies.',
+      'Learning and working with a lot of new frontend technologies (Typescript, Node.js, MongoDB, SQL, Tailwind, Three.js)',
+      'Implementing responsive design, styling components and ensuring cross-browser compatibility, working a lot with HTML/CSS/SCSS.',
     ],
   },
   {
-    title: "Crypto researcher / analyst",
-    company_name: "Shard Labs",
+    title: 'Crypto researcher / analyst',
+    company_name: 'Shard Labs',
     icon: btc,
-    iconBg: "#383E56",
-    date: "May 2022 - Oct 2022",
+    iconBg: '#383E56',
+    date: 'May 2022 - Oct 2022',
     points: [
-      "Blockchain analyst and researcher of various Web3 projects",
-      "Aggregated data across various blockchains, exchanges (CEXes & DEXes)",
-      "Researched developer teams, tech conferences, socials, VCs, tokenmetrics ",
-      "Used Airtable for data storage and Power BI for data visualization",
+      'Blockchain analyst and researcher of various Web3 projects',
+      'Aggregated data across various blockchains, exchanges (CEXes & DEXes)',
+      'Researched developer teams, tech conferences, socials, VCs, tokenmetrics ',
+      'Used Airtable for data storage and Power BI for data visualization',
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Freelancer",
+    title: 'Web Developer',
+    company_name: 'Freelancer',
     icon: freelancer,
-    iconBg: "#E6DEDD",
-    date: "May 2021 - May 2022",
+    iconBg: '#E6DEDD',
+    date: 'May 2021 - May 2022',
     points: [
       "'beaconsmind AG' - Converted design templates of the complete dashboard to HTML/CSS for a business app in React",
       "'metahub.info' - NFT and Crypto blog for which I was a content creator",
@@ -151,28 +151,28 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer (internship)",
-    company_name: "Code Base",
+    title: 'Frontend Developer (internship)',
+    company_name: 'Code Base',
     icon: meta,
-    iconBg: "#383E56",
-    date: "May 2020 - May 2021",
+    iconBg: '#383E56',
+    date: 'May 2020 - May 2021',
     points: [
-      "Worked frontend parts of several business apps and some web pages",
-      "Used HTML, CSS, SCSS, Javascript. Figma, Git and React",
-      "Implemented responsive design and ensured cross-browser compatibility.",
-      "Defined and implemented simple React components (cards, forms etc.).",
+      'Worked frontend parts of several business apps and some web pages',
+      'Used HTML, CSS, SCSS, Javascript. Figma, Git and React',
+      'Implemented responsive design and ensured cross-browser compatibility.',
+      'Defined and implemented simple React components (cards, forms etc.).',
     ],
   },
   {
-    title: "Business Analyst",
-    company_name: "Adria Docks",
+    title: 'Business Analyst',
+    company_name: 'Adria Docks',
     icon: adria,
-    iconBg: "#E6DEDD",
-    date: "Apr 2015 - Apr 2020",
+    iconBg: '#E6DEDD',
+    date: 'Apr 2015 - Apr 2020',
     points: [
-      "Did procurement and warehouse operations, coordinated contractors",
+      'Did procurement and warehouse operations, coordinated contractors',
       "Shiprepair projects analysis', did business reports monthly and made budget plans - reported business results to the CEO.",
-      "Sorted all costs and prepared financial reports by projects for bookkeeping.",
+      'Sorted all costs and prepared financial reports by projects for bookkeeping.',
       "Implemented ERP and BI systems (first with 'Infor LN' and afterwards with 'Pantheon') - used them for analysis and supporting Project Managers.",
     ],
   },
@@ -180,67 +180,75 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: 'Lyrikum',
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      'Modern music app built with ShazamAPI. It has a music player with all the functions; songs and artists searchbar and a lyrics for every song. You can also search popular music around you and see worlds most popular music by genre.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: 'tailwind',
+        color: 'pink-text-gradient',
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: 'redux',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'rapidAPI',
+        color: 'blue-text-gradient',
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: 'https://github.com/pinjamar/lyrikum',
   },
   {
-    name: "Job IT",
+    name: 'Cryptopedia',
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      'Cryptocurrency app that uses rapidAPI and redux to create allaround info about top50 cryptocurrencies. Also uses AntDesign and Chart.js for UI creation. Goal is to expand it with more informations soon like news, exchanges, links etc.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: 'rapidAPI',
+        color: 'green-text-gradient',
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: 'antdesign',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'redux',
+        color: 'blue-text-gradient',
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: 'https://github.com/pinjamar/cryptopedia',
   },
   {
-    name: "Trip Guide",
+    name: 'Ecommerce',
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      'Ecommerce website built using React. App has modern design and animations, ability to add and edit products using Sanity. Has cart and checkout functionality and is integrated with Stripe for payments. Type of products will be updated soon.',
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: 'nextjs',
+        color: 'blue-text-gradient',
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: 'sanity',
+        color: 'green-text-gradient',
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: 'stripe',
+        color: 'pink-text-gradient',
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: 'https://github.com/pinjamar/ecommerce-web-shop',
   },
 ];
 
