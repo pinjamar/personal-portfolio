@@ -1,18 +1,20 @@
-import React from "react";
-import Tilt from "react-tilt";
-import { motion } from "framer-motion";
+import React from 'react';
+import Tilt from 'react-tilt';
+import { motion } from 'framer-motion';
 
-import { styles } from "../styles";
-import { services } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { styles } from '../styles';
+import { services } from '../constants';
+import { fadeIn, textVariant } from '../utils/motion';
 
-import { SectionWrapper } from "../hoc";
+import profilna from '../assets/profilna.png';
+
+import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div
@@ -41,20 +43,29 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        I'm a skilled software developer with experience in Javascript and
-        TypeScript and expertise in frameworks like React, Node.js and Three.js.
-        I am also an ex Business analyst and a big fan/researcher of
-        cryptocurrencies. I'm a quick learner and collaborate closely with
-        clients to create efficient, scalable, and user-friendly solutions that
-        solve real-world problems. Let's work together to bring new ideas to
-        life!
-      </motion.p>
+      <div className="mt-4 flex flex-col md:flex-row max-w-5xl gap-8 items-center">
+        <img
+          src={profilna}
+          alt="Ivan"
+          className="w-40 h-40 rounded-full object-cover shadow-lg"
+        />
 
-      <div className="mt-20 flex flex-wrap gap-10">
+        <motion.p
+          variants={fadeIn('', '', 0.1, 1)}
+          className="mt-4 md:mt-0 text-secondary text-[17px]  max-w-full max-w-3xl leading-[30px]"
+        >
+          I hold a Master’s degree in Economics with over 10 years of experience
+          as a Business Analyst. Alongside this, I have solid web development
+          knowledge and over 8 years of formal and informal expertise in
+          cryptocurrency and blockchain. Currently pursuing a PhD focused on
+          DeFi (Decentralized Finance). I actively write a crypto blog sharing
+          insights and research. I’m passionate about combining my analytical,
+          technical, and crypto skills to contribute to innovative projects and
+          am seeking opportunities in the crypto space.
+        </motion.p>
+      </div>
+
+      <div className="mt-20 flex flex-wrap gap-6 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
@@ -63,4 +74,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(About, 'about');

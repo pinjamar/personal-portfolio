@@ -20,9 +20,9 @@ import {
   adria,
   freelancer,
   carrent,
-  jobit,
   tripguide,
   threejs,
+  blog,
 } from '../assets';
 
 export const navLinks = [
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Business Analyst',
     icon: web,
   },
   {
-    title: 'React.js Developer',
+    title: 'Crypto Researcher',
     icon: mobile,
   },
   {
-    title: 'Front-End Developer',
+    title: 'DeFi PhD Student',
     icon: backend,
   },
   {
-    title: 'Crypto Researcher',
+    title: 'Web Developer',
     icon: creator,
   },
 ];
@@ -112,23 +112,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Junior Frontend Developer',
-    company_name: 'Code Base',
+    title: 'Crypto Researcher & Creator',
+    company_name: 'Freelance',
     icon: code,
     iconBg: '#E6DEDD',
-    date: 'Nov 2022 - Present',
+    date: 'Nov 2024 - Present',
     points: [
-      'Developing web applications using React.js and other related technologies.',
-      'Learning and working with a lot of new frontend technologies (Typescript, Node.js, MongoDB, SQL, Tailwind, Three.js)',
-      'Implementing responsive design, styling components and ensuring cross-browser compatibility, working a lot with HTML/CSS/SCSS.',
+      'Conducting detailed research and data analysis in cryptocurrency, blockchain, and DeFi.',
+      'Producing insightful articles and reports to educate and inform the crypto community.',
+      'Collaborating on freelance projects involving market trends and crypto analytics.',
+      'Continuously enhancing knowledge of blockchain technologies and crypto economics.',
     ],
   },
   {
-    title: 'Crypto researcher / analyst',
+    title: 'Crypto analyst',
     company_name: 'Shard Labs',
     icon: btc,
     iconBg: '#383E56',
-    date: 'May 2022 - Oct 2022',
+    date: 'Jan 2022 - Oct 2024',
     points: [
       'Blockchain analyst and researcher of various Web3 projects',
       'Aggregated data across various blockchains, exchanges (CEXes & DEXes)',
@@ -137,30 +138,28 @@ const experiences = [
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Freelancer',
+    title: 'Web Dev & Tester',
+    company_name: 'TaxTris',
     icon: freelancer,
     iconBg: '#E6DEDD',
-    date: 'May 2021 - May 2022',
+    date: 'May 2022 - Dec 2022',
+    points: [
+      'Developer, tax calculant and tester for crypto startup building CEX - tax reports (testing and PostgreSQL data storage)',
+      'Did tax calculations for various countries, made manual test cases and built tax reports for CEX trading',
+      'Translated PDF tax forms into HTML code and worked with simple scripting / calculations, learned basic C#',
+    ],
+  },
+  {
+    title: 'Frontend Developer',
+    company_name: 'Code Base',
+    icon: meta,
+    iconBg: '#383E56',
+    date: 'May 2020 - May 2022',
     points: [
       "'beaconsmind AG' - Converted design templates of the complete dashboard to HTML/CSS for a business app in React",
       "'metahub.info' - NFT and Crypto blog for which I was a content creator",
       "'Agilathon' - worked as a Javascript developer inside a companies custom solution - got exposure to MongoDB and APIs",
-      "'TaxTris' - developer, calculant and tester for crypto startup building CEX - tax reports (C# simple scripting / testing and PostgreSQL data storage) ",
       "'TopCroatiaSailing' - built a static webpage for a nautical charter ",
-    ],
-  },
-  {
-    title: 'Frontend Developer (internship)',
-    company_name: 'Code Base',
-    icon: meta,
-    iconBg: '#383E56',
-    date: 'May 2020 - May 2021',
-    points: [
-      'Worked frontend parts of several business apps and some web pages',
-      'Used HTML, CSS, SCSS, Javascript. Figma, Git and React',
-      'Implemented responsive design and ensured cross-browser compatibility.',
-      'Defined and implemented simple React components (cards, forms etc.).',
     ],
   },
   {
@@ -205,29 +204,29 @@ const projects = [
     source_code_link: 'https://github.com/pinjamar/lyrikum',
   },
   {
-    name: 'Cryptopedia',
+    name: 'Crypto Scientia Blog',
     description:
-      'Cryptocurrency app that uses rapidAPI and redux to create allaround info about top50 cryptocurrencies. Also uses AntDesign and Chart.js for UI creation. Goal is to expand it with more informations soon like news, exchanges, links etc.',
+      'A personal blog exploring DeFi, blockchain, and crypto economics — written from the perspective of a PhD student and researcher. Features insights, educational posts, and project breakdowns in web3 and digital finance.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'rapidAPI',
+        name: 'hygraph',
         color: 'green-text-gradient',
       },
       {
-        name: 'antdesign',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
       {
-        name: 'redux',
-        color: 'blue-text-gradient',
+        name: 'vite',
+        color: 'orange-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/pinjamar/cryptopedia',
+    image: blog,
+    source_code_link: 'https://github.com/pinjamar/crypto_scientia_blog',
   },
   {
     name: 'Ecommerce',
